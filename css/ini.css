@@ -29,13 +29,16 @@ body{
 .intro-main p{
 	margin-top:3px;
 	margin-left: 10px;
+	color: #4A4A4A;
+   	text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
 }
 .name{
 	margin-top:10px;
 	margin-bottom: 10px;
 	font-size: 42px;
-	font-color: #495A80;
+	color: #495A80;
 	font-weight: bold;
+    	text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
 }
 .name:hover{
 	cursor: wait;
