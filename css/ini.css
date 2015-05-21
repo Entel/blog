@@ -89,19 +89,23 @@ a:hover{
 	height: 50px;
 	display: block;
 }
-.article-list .date{
+.date{
+	max-width: 33%;
+	min-width: 30%;
+}
+.article-list .date span{
 	font-size: 35px;
 	margin-top: auto;
 	margin-bottom: auto;
 	margin-left: 10px;
 	color: #8B7D56;
-	max-width: 30%;
 }
 .article{
 	float: right;
 	display: block;
 	margin-right:20px;
-	max-width: 70%;
+	max-width: 73%;
+	min-width:70%;
 }
 .article-list a{
 	font-size: 18px;

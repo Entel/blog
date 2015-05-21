@@ -5,7 +5,9 @@ title: This is me !!!
 <ul>
 	{% for post in site.posts %}
 	<li>
-		<span class="date">{{ post.date | date_to_string }}</span> 
+		<div class="date">
+			<span>{{ post.date | date_to_string }}</span>	
+		</div>
 		<div class="article"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
 	</li>
 	{% endfor %}
