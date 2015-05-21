@@ -17,6 +17,8 @@ a:hover{
 .header{
 	height: 300px;
 }
+
+/* introduction */
 .intro-main{
 	margin-top: 20px;
 	max-width: 1000px;
@@ -56,6 +58,28 @@ a:hover{
 	font-size: 20px;
 	font-weight: 600;
 }
+
+/* about */
+
+.about{
+	margin-top: 20px;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+    	display: block;
+    	padding:20px;
+    	cursor: default;
+    	background: #fff url(http://tympanus.net/Tutorials/OriginalHoverEffects/images/bgimg.jpg) repeat;
+    	-webkit-box-shadow:0 5px 10px #666; 
+    	-moz-box-shadow:0 5px 10px #666;
+    	box-shadow:0 5px 10px #666;
+    	-moz-border-radius:5px;
+    	-webkit-border-radius:5px;
+    	-o-border-radius:5px;
+    	border-radius:5px;    
+}
+
+/* article list */
 .article-list{
 	margin-top: 20px;
 	max-width: 1000px;
