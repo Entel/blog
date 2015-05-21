@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<style>
+.intro{
+	max-width: 700px;
+	text-align: center;
+}
+</style>
+<html>
+	<head>
+		<title>{{ page.title }} </title>
+	</head>
+	<body>
+		<div class="header">
+			<span class="blog-title">This is me !!!</span>
+		</div>
+		<div id="intro">
+			<div id="photo">
+				<img src="{{ site.url }}/images/me.jpg" />
+				<div>
+					<p class="name">液氢</p>
+					<span class="intro-list">
+						兴趣：画画（板绘），口琴，剑道，二次元，摄影，吃（料理也喜欢）
+						<hr>
+						特长：打码【主攻后台（Python，PHP，C++），兼顾前端（HTML，CSS，JavaScript）】
+						<hr>
+						语言：中文，日语，英语，潮汕话
+						<hr>
+					</span>
+					<span class="intro-main">
+						自我介绍：喜欢
+					</span>
+					
+				</div>
+			</div>
+		</div>
+		<div id="article_list">
+			<p>最新文章</p>
+			{{ content }}
+		</div>
+	</body>
+</html>
