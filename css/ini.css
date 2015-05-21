@@ -20,7 +20,8 @@ body{
 	width: 90%;
 }
 .intro-list{
-	float: right;
+	margin-left: 30px;
+	margin-top: 0;
 }
 .name{
 	font-size: 35px;
