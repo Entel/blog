@@ -97,7 +97,7 @@ a:hover{
 	color: #8B7D56;
 	max-width: 30%;
 }
-.article-list ul li p{
+.article{
 	float: right;
 	display: block;
 	margin-right:20px;
