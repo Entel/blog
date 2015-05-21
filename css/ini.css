@@ -5,7 +5,7 @@
 	max-width: 1000px;
 	text-align: center;
 }
-.photo{
+#photo{
 	max-width: 280px;
 	float: left;
 }
