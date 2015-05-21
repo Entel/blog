@@ -1,5 +1,5 @@
 *{
-	font-family: sans-serif;
+	font-family: "YouYuan";
 }
 body{
 }
@@ -15,11 +15,11 @@ body{
 #photo img{
 	width: 90%;
 }
-#name{
+.name{
 	font-size: 35px;
 	font-weight: bold;
 }
-#name :hover{
+.name :hover{
 	cursor: wait;
 }
 .intro-list{
