@@ -84,20 +84,22 @@ a:hover{
     	text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
 }
 .article-list ul li{
+    	text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
 	margin-top: 3px;
-	height: 70px;
+	height: 50px;
 }
 .article-list .date{
-	font-size: 50px;
+	font-size: 35px;
 	margin-top: auto;
 	margin-bottom: auto;
 	margin-left: 10px;
 	color: #8B7D56;
 }
 .article-list a{
-	font-size: 20px;
+	font-size: 25px;
 	transition: all .5s;
+	margin-left: 15px;
 }
 .article-list a:hover{
-	font-size: 25px;
+	font-size: 30px;
 }
