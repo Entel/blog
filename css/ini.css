@@ -83,18 +83,23 @@ a:hover{
 	font-weight: bold;
     	text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
 }
+.article-list ul{
+	margin-top: 3px;
+	min-width: 850px;
+}
 .article-list ul li{
     	text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
-	margin-top: 3px;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 10px;
 	height: 50px;
 	display: block;
+	min-width: 850px;
 }
 .date{
 	max-width: 210px;
 	min-width: 200px;
-	margin-top: auto;
-	margin-bottom: auto;
-	margin-left: 10px;
+	float: left;
 }
 .article-list .date span{
 	font-size: 35px;
@@ -115,6 +120,7 @@ a:hover{
 }
 .article-list a:hover{
 	color: #3761BD;
+    	text-shadow: 1px 1px 3px #FFFFFF;
 }
 .footer{
 	height: 100px;
