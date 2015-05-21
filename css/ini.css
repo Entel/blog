@@ -4,16 +4,17 @@
 body{
 }
 .intro-main{
-	max-width: 1000px;
+	min-width: 600px;
+	width: 70%;
 	margin-left: auto;
 	margin-right: auto;
 }
 .intro-head{
-	min-height: 400px;
 }
 #photo{
-	max-width: 300px;
+	max-width: 30%;
 	float: left;
+	text-align: center;
 }
 #photo img{
 	width: 90%;
@@ -33,7 +34,7 @@ body{
 	font-weight: 600;
 }
 .intro-list{
-	max-width: 700px;
+	max-width: 70%;
 }
 .article-list{
 	max-width: 1000px;
