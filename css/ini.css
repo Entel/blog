@@ -87,7 +87,7 @@ a:hover{
     	text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
 	margin-top: 3px;
 	height: 50px;
-
+	display: block;
 }
 .article-list .date{
 	font-size: 35px;
@@ -95,13 +95,17 @@ a:hover{
 	margin-bottom: auto;
 	margin-left: 10px;
 	color: #8B7D56;
+	display: block;
 }
 .article-list a{
+	margin-right:20px;
 	max-width: 70%;
 	font-size: 18px;
 	transition: all .5s;
 	margin-left: 15px;
 	overflow: ellipsis;
+	display: block;
+	float: right;
 }
 .article-list a:hover{
 	color: #3761BD;
