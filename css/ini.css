@@ -84,10 +84,19 @@ a:hover{
     	text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
 }
 .article-list ul li{
-	margin-top: 4px;
+	margin-top: 3px;
+	height: 70px;
+}
+.article-list .date{
+	font-size: 50px;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 10px;
+	color: #8B7D56;
 }
 .article-list a{
 	font-size: 20px;
+	transition: all .5s;
 }
 .article-list a:hover{
 	font-size: 25px;
