@@ -89,10 +89,10 @@ a:hover{
 }
 .article-list ul li{
     	text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
-	margin-top: auto;
+	margin-top: 3px;
 	margin-bottom: auto;
 	margin-left: 10px;
-	height: 50px;
+	min-height: 50px;
 	display: block;
 	min-width: 850px;
 }
@@ -111,6 +111,7 @@ a:hover{
 	margin-right:20px;
 	max-width: 630px;
 	min-width: 620px;
+	margin-top: 2px;
 }
 .article-list a{
 	font-size: 18px;
@@ -120,7 +121,7 @@ a:hover{
 }
 .article-list a:hover{
 	color: #3761BD;
-    	text-shadow: 1px 1px 3px #FFFFFF;
+    	text-shadow: 1px 1px 3px #345678;
 }
 .footer{
 	height: 100px;

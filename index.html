@@ -8,7 +8,9 @@ title: This is me !!!
 		<div class="date">
 			<span>{{ post.date | date_to_string }}</span>	
 		</div>
-		<div class="article"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
+		<div class="article">
+			<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+		</div>
 	</li>
 	{% endfor %}
 </ul>
