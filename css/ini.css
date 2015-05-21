@@ -110,3 +110,6 @@ a:hover{
 .article-list a:hover{
 	color: #3761BD;
 }
+.footer{
+	height: 100px;
+}
