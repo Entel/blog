@@ -9,7 +9,6 @@ body{
 	margin-right: auto;
 }
 .intro-head{
-	float: right;
 }
 #photo{
 	max-width: 280px;
@@ -17,6 +16,9 @@ body{
 }
 #photo img{
 	width: 90%;
+}
+.intro-list{
+	float: right;
 }
 .name{
 	font-size: 35px;
