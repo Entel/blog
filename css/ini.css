@@ -9,9 +9,10 @@ body{
 	margin-right: auto;
 }
 .intro-head{
+	min-height: 400px;
 }
 #photo{
-	max-width: 280px;
+	max-width: 300px;
 	float: left;
 }
 #photo img{
