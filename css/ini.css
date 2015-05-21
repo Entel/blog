@@ -2,18 +2,37 @@
 	font-family: "Microsoft YaHei",Arial,Helvetica,sans-serif;
 }
 body{
-	background-color: #DDF0DE;
+	background-color: #F0F1DC;
 }
 .header{
 	height: 300px;
 }
 .intro-main{
-	/*margin-top: 20px;*/
-	min-width: 600px;
+	margin-top: 20px;
+	max-width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
 }
+.intro-main{
+    display: block;
+    padding:20px;
+    cursor: default;
+    background: #fff url(http://tympanus.net/Tutorials/OriginalHoverEffects/images/bgimg.jpg) repeat;
+    -webkit-box-shadow:0 5px 10px #666; 
+    -moz-box-shadow:0 5px 10px #666;
+    box-shadow:0 5px 10px #666;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    -o-border-radius:5px;
+    border-radius:5px;    
+}
+.intro-main p{
+	margin-top:3px;
+	margin-left: 10px;
+}
 .name{
+	margin-top:10px;
+	margin-bottom: 10px;
 	font-size: 35px;
 	font-weight: bold;
 }
