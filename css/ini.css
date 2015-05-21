@@ -87,6 +87,7 @@ a:hover{
     	text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
 	margin-top: 3px;
 	height: 50px;
+
 }
 .article-list .date{
 	font-size: 35px;
@@ -97,11 +98,11 @@ a:hover{
 }
 .article-list a{
 	max-width: 70%;
-	font-size: 25px;
+	font-size: 18px;
 	transition: all .5s;
 	margin-left: 15px;
-	overflow: hidden;
+	overflow: ellipsis;
 }
 .article-list a:hover{
-	font-size: 30px;
+	color: #3761BD;
 }
