@@ -97,6 +97,10 @@ a:hover{
 	color: #8B7D56;
 	max-width: 30%;
 }
+.article-list p{
+	float: right;
+	display: block;
+}
 .article-list a{
 	margin-right:20px;
 	max-width: 70%;
@@ -104,8 +108,6 @@ a:hover{
 	transition: all .5s;
 	margin-left: 15px;
 	overflow: ellipsis;
-	display: block;
-	float: right;
 }
 .article-list a:hover{
 	color: #3761BD;
