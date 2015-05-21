@@ -1,5 +1,5 @@
 *{
-	font-family: "YouYuan";
+	font-family: SimHei;
 }
 body{
 }
@@ -21,6 +21,10 @@ body{
 }
 .name :hover{
 	cursor: wait;
+}
+.title{
+	font-size: 25px;
+	font-weight: 600;
 }
 .intro-list{
 	max-width: 700px;
