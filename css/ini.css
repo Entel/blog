@@ -95,7 +95,7 @@ a:hover{
 	margin-bottom: auto;
 	margin-left: 10px;
 	color: #8B7D56;
-	display: block;
+	max-width: 30%;
 }
 .article-list a{
 	margin-right:20px;
