@@ -4,6 +4,15 @@
 body{
 	background-color: #F0F1DC;
 }
+ul li{
+	list-style-type: none;
+}
+a:link{
+	text-decoration:none;	
+}
+a:hover{
+	cursor: pointer;
+}
 .header{
 	height: 300px;
 }
@@ -48,8 +57,21 @@ body{
 	font-weight: 600;
 }
 .article-list{
+	margin-top: 20px;
 	max-width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
 }
-
+.article-list{
+    display: block;
+    padding:20px;
+    cursor: default;
+    background: #fff url(http://tympanus.net/Tutorials/OriginalHoverEffects/images/bgimg.jpg) repeat;
+    -webkit-box-shadow:0 5px 10px #666; 
+    -moz-box-shadow:0 5px 10px #666;
+    box-shadow:0 5px 10px #666;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    -o-border-radius:5px;
+    border-radius:5px;    
+}
