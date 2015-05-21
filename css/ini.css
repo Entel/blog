@@ -1,7 +1,16 @@
-.intro{
+*{
+	font: Hei;
+}
+.intro-main{
 	max-width: 1000px;
+	text-align: center;
 }
 .photo{
 	max-width: 280px;
+	float: left;
 }
+.intro-list{
+	float: right;
+}
+
 
