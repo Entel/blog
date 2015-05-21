@@ -78,6 +78,19 @@ a:hover{
     	-o-border-radius:5px;
     	border-radius:5px;    
 }
+.about-head{
+	color: #4A4A4A;
+	margin-top:10px;
+	margin-bottom: 10px;
+	font-size: 42px;
+	font-weight: bold;
+    	text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+.about-main{
+	margin-left: 15px;
+	margin-right: 15px;
+	text-indent: 50px;
+}
 
 /* article list */
 .article-list{
