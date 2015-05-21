@@ -1,15 +1,22 @@
 *{
 	font: Hei;
 }
+body{
+	text-align: center;
+}
 .intro-main{
 	max-width: 1000px;
-	text-align: center;
 }
 #photo{
 	max-width: 280px;
 	float: left;
+	text-align: center;
+}
+#photo img{
+	width: 90%;
 }
 .intro-list{
+	max-width: 700px;
 	float: right;
 }
 
