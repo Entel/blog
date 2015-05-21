@@ -96,9 +96,11 @@ a:hover{
 	color: #8B7D56;
 }
 .article-list a{
+	max-width: 70%;
 	font-size: 25px;
 	transition: all .5s;
 	margin-left: 15px;
+	overflow: hidden;
 }
 .article-list a:hover{
 	font-size: 30px;
