@@ -49,7 +49,7 @@ h2{
 	transition: all 0.5s;
 }
 .category{
-	margin-left: 30%;
+	margin-left: 10%;
 	margin-top: 10px;
 	color: #626C83;
 	font-size: 20px;
@@ -62,7 +62,7 @@ h2{
 }
 .date{
 	margin-top: 10px;
-	margin-left: 90%
+	margin-left: 90%;
 	color: #FF7530;
 	font-size: 17px;
    	text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
