@@ -62,7 +62,7 @@ h2{
 }
 .date{
 	margin-top: 10px;
-	margin-left: 90%;
+	margin-left: 80%;
 	color: #FF7530;
 	font-size: 17px;
    	text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
@@ -80,7 +80,8 @@ h2{
 }
 .content p{
 	color: #4A4A4A;
-	font-size: 17px;
+	font-size: 19px;
+	line-height: 111%
    	text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
 	text-indent: 34px;
 }
