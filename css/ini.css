@@ -14,6 +14,9 @@ a:link{
 a:hover{
 	cursor: pointer;
 }
+a:visited{
+	color: #4A4A4A;
+}
 .header{
 	height: 300px;
 }
@@ -29,7 +32,7 @@ a:hover{
     display: block;
     padding:20px;
     cursor: default;
-    background: #fff url(http://tympanus.net/Tutorials/OriginalHoverEffects/images/bgimg.jpg) repeat;
+    background-color: #D4D6DC;
     -webkit-box-shadow:0 5px 10px #666; 
     -moz-box-shadow:0 5px 10px #666;
     box-shadow:0 5px 10px #666;
