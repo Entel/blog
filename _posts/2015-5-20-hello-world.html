@@ -1,7 +1,21 @@
 ---
 layout: default
-title: 你好，世界
+title: Hello, World !!!
 ---
 <h2>{{ page.title }}</h2>
-<p>我的第一篇文章</p>
-<p>{{ page.date | date_to_string }}</p>
+
+<div class="category">
+	<span>Category : {{ page.category }}</span>
+</div>
+<div class="date">
+	<span>{{ page.date | date: '%Y-%m-%d' }}</span>
+</div>
+
+<div class="content">
+	<p>中文</p>
+	<p>第一篇文章，按照惯例，必须说的一句话就是：“Hello, world”。那么各位，接下来，请多指教！</p>
+	<p>English</p>
+	<p>My first post. As usual, just say "Hey, Hey, Hey! Start dash!". Sorry, it's a joke. Nooooooo, I am not a LLer, don't arrest me!!! Hah, I am back. Back to the topic, just say "Hello, world!".</p>
+	<p>日本語</p>
+	<p>これは初めでのポストです。いつもの通り、”Hello world!”は必ず言いますね。では、ハロー、ワールド！皆様、これからはどうぞ、よろしくお願い致します！</p>
+</div>
