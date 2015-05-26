@@ -89,13 +89,15 @@ h2{
 .back{
 	font-size: 19px;
 	line-height: 150%;
-   	text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
 	text-indent: 34px;
-	cursor: pointer;
 	color: #362c34;
+}
+.back a{
+   	text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+	cursor: pointer;
 	transition: all 0.8s;
 }
-.back:hover{
+.back a:hover{
 	color: #8c9ed5;
 }
 
