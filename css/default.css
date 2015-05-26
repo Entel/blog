@@ -47,7 +47,7 @@ h2{
 	text-align: center;
 	color: #4A4A4A;
    	text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
-	transition: all 0.5s;
+	transition: all 0.8s;
 }
 .category{
 	margin-left: 10%;
@@ -55,7 +55,7 @@ h2{
 	color: #626C83;
 	font-size: 20px;
    	text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
-	transition: all 0.5s;
+	transition: all 0.8s;
 }
 .category span:hover{
 	color: #D4D6DC;
@@ -67,7 +67,7 @@ h2{
 	color: #FF7530;
 	font-size: 17px;
    	text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
-	transition: all 0.5s;
+	transition: all 0.8s;
 }
 .date span:hover{
 	color: #FCD781;
@@ -85,6 +85,14 @@ h2{
 	line-height: 150%;
    	text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
 	text-indent: 34px;
+}
+.back{
+	cursor: pointer;
+	color: #362c34;
+	transition: all 0.8s;
+}
+.back:hover{
+	color: #8c9ed5;
 }
 
 /* footer */
