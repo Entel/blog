@@ -87,6 +87,10 @@ h2{
 	text-indent: 34px;
 }
 .back{
+	font-size: 19px;
+	line-height: 150%;
+   	text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+	text-indent: 34px;
 	cursor: pointer;
 	color: #362c34;
 	transition: all 0.8s;
