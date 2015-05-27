@@ -1,4 +1,5 @@
 baseurl: /blog
 css: /blog/css
 images: /blog/images
+javascript: /blog/js
 pygments: true

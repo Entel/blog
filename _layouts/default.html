@@ -3,6 +3,7 @@
 　　<head>
 　　　　<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<link rel="stylesheet" href="{{ site.css }}/default.css" type="text/css">
+	<link rel="stylesheet" href="{{ site.javascript }}/highlight/style.css" type="text/css">
 　　　　<title>液氢 - {{ page.title }}</title>
 　　</head>
 　　<body>
@@ -18,4 +19,8 @@
 	<div class="footer">
 	</div>
 　　</body>
+	
+	<script language="javascript" href="{{ site.javascript }}/highlight/hl-all.js" type="text/javascript">
+	DlHighlight.HELPERS.highlightByName("code", "pre");
+</script>
 </html>

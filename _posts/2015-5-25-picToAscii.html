@@ -19,8 +19,7 @@ category: Note
 	<p>The idea of realizing this function includes three part. Firt of all, painting all the letters and some puncluation which you want to use, like space, period, comma and so on, and then caculate the gradation of them. Secondly, reading a image and resize it into the size you need. Thirdly, caculating the pixel gray of the image and put the letter, which has the nearest gradation with the pixel, in the same position of a new white image.</p>
 	<p>Here is my <a href="https://github.com/Entel/picToASCII.git">code</a>.</p> 
 	<p>The <a href="https://github.com/Entel/picToASCII/blob/master/drawLetter.py">drawLetter.py</a> is to draw the letters and puncluations and save each one as an image.</p>
-
-{% highlight python %}	
+<pre name="class" class="python">
 import PIL
 from PIL import ImageFont, Image, ImageDraw
 
@@ -52,5 +51,4 @@ for text in range(ord('A'), ord('Z')+1):
 img = Image.new("RGB", (10, 10), (255, 255, 255))
 draw = ImageDraw.Draw(img)
 img.save("letter/space.png")
-{% endhighlight %}
 </div>
