@@ -87,6 +87,7 @@ h2{
 	text-indent: 34px;
 }
 .content p a{
+	color: #B6B8F0;
    	text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
 	cursor: pointer;
 	transition: all 0.8s;
