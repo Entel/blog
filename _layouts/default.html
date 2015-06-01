@@ -21,6 +21,8 @@
 　　</body>
 	
 	<script language="javascript" href="{{ site.javascript }}/highlight/hl-all.js" type="text/javascript">
-	DlHighlight.HELPERS.highlightByName("code", "pre");
+	window.onload(function(){
+		DlHighlight.HELPERS.highlightByName("code", "pre");
+	});
 </script>
 </html>
