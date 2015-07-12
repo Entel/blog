@@ -1,0 +1,178 @@
+*{
+	font-family: "Microsoft YaHei",Arial,Helvetica,sans-serif;
+}
+body{
+	background-color: #F0F1DC;
+}
+ul li{
+	list-style-type: none;
+}
+a:link{
+	text-decoration:none;	
+	color: #4A4A4A;
+}
+a:hover{
+	cursor: pointer;
+}
+a:visited{
+	color: #4A4A4A;
+}
+.header{
+	height: 300px;
+}
+
+/* introduction */
+.intro-main{
+	margin-top: 20px;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.intro-main{
+    display: block;
+    padding:20px;
+    cursor: default;
+    background: #fff url(http://tympanus.net/Tutorials/OriginalHoverEffects/images/bgimg.jpg) repeat;
+    -webkit-box-shadow:0 5px 10px #666; 
+    -moz-box-shadow:0 5px 10px #666;
+    box-shadow:0 5px 10px #666;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    -o-border-radius:5px;
+    border-radius:5px;    
+}
+.intro-main p{
+	margin-top:3px;
+	margin-left: 10px;
+	margin-right: 15px;
+	color: #4A4A4A;
+	font-size: 17px;
+   	text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+.name{
+	margin-top:10px;
+	margin-bottom: 10px;
+	font-size: 42px;
+	font-weight: bold;
+    	text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+	color: #4A4A4A;
+}
+.name:hover{
+	cursor: wait;
+}
+.title{
+	font-size: 20px;
+	font-weight: 600;
+}
+.self-intro{
+	text-indent: 34px;
+}
+
+/* about */
+
+.about{
+	margin-top: 20px;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+    	display: block;
+    	padding:20px;
+    	cursor: default;
+    	background: #fff url(http://tympanus.net/Tutorials/OriginalHoverEffects/images/bgimg.jpg) repeat;
+    	-webkit-box-shadow:0 5px 10px #666; 
+    	-moz-box-shadow:0 5px 10px #666;
+    	box-shadow:0 5px 10px #666;
+    	-moz-border-radius:5px;
+    	-webkit-border-radius:5px;
+    	-o-border-radius:5px;
+    	border-radius:5px;    
+}
+.about-head{
+	color: #4A4A4A;
+	margin-top:10px;
+	margin-bottom: 10px;
+	font-size: 39px;
+	font-weight: bold;
+    	text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+.about-main{
+	margin-left: 15px;
+	margin-right: 15px;
+	min-width: 80%;
+	color: #4A4A4A;
+	font-size: 20px;
+	text-indent: 40px;
+    	text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+/* article list */
+.article-list{
+	margin-top: 20px;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.article-list{
+    display: block;
+    padding:20px;
+    cursor: default;
+    background: #fff url(http://tympanus.net/Tutorials/OriginalHoverEffects/images/bgimg.jpg) repeat;
+    -webkit-box-shadow:0 5px 10px #666; 
+    -moz-box-shadow:0 5px 10px #666;
+    box-shadow:0 5px 10px #666;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    -o-border-radius:5px;
+    border-radius:5px;    
+}
+.article-head{
+	color: #4A4A4A;
+	margin-top:10px;
+	margin-bottom: 10px;
+	font-size: 39px;
+	font-weight: bold;
+    	text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+.article-list ul{
+	margin-top: 3px;
+	min-width: 850px;
+}
+.article-list ul li{
+    	text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+	margin-top: 3px;
+	margin-bottom: auto;
+	margin-left: 10px;
+	min-height: 50px;
+	display: block;
+	min-width: 850px;
+}
+.date{
+	max-width: 260px;
+	min-width: 240px;
+	float: left;
+}
+.article-list .date span{
+	font-size: 35px;
+	color: #8B7D56;
+}
+.article{
+	float: right;
+	display: block;
+	margin-right:20px;
+	max-width: 630px;
+	min-width: 620px;
+	margin-top: 2px;
+}
+.article-list a{
+	font-size: 18px;
+	transition: all .5s;
+	margin-left: 15px;
+	overflow: ellipsis;
+}
+.article-list a:hover{
+	color: #3761BD;
+    	text-shadow: 1px 1px 3px #345678;
+}
+.footer{
+	height: 100px;
+}
