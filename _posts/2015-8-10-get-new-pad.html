@@ -1,0 +1,23 @@
+---
+layout: default
+title: 新数位板到手，试试手
+category: Diary
+---
+<h2>{{ page.title }}</h2>
+
+<div class="category">
+	<span>Category : {{ page.category }}</span>
+</div>
+<div class="date">
+	<span>{{ page.date | date: '%Y-%m-%d' }}</span>
+</div>
+
+<div class="content">
+	<img src="{{ site.images }}/2015_7_31.jpg" />
+	{% for image in site.images.images_post_test %}
+		<li><img src="{{ site.images }}/images_post_test/{{ image }}"/> </li>
+	{% endfor %}
+	<p>旧的数位板几天前坏了。。。今天新的数位板到货了，所以决定来试试手。</p>
+	<p>因为是测试新数位板，所以压感还没掌握好，线条粗细有点问题，大家将就的看吧。</p>
+	<p>画的是前几天看到的一部很治愈的漫画里面的女主角————花凛。临摹的，只有线稿，又要上色练习的可以直接拿走。</p>	
+</div>
