@@ -2,4 +2,6 @@ baseurl: /blog
 css: /blog/css
 images: /blog/images
 javascript: /blog/js
+highlighter: pygments
 pygments: true
+encoding: utf-8
