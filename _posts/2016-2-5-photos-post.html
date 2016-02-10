@@ -1,0 +1,23 @@
+---
+layout: default
+title: 发一些照片
+category: Diary
+---
+<h2>{{ page.title }}</h2>
+
+<div class="category">
+	<span>Category : {{ page.category }}</span>
+</div>
+<div class="date">
+	<span>{{ page.date | date: '%Y-%m-%d' }}</span>
+</div>
+
+<div class="content">
+	{% for i in (1..18) %}
+  		<img src="{{ site.images }}/2016-2-5-photos-post/{{ i }}.jpg" />
+	{% endfor %}
+	<p>来日本快一个月了，有时候出去办事的时候带了相机就随手拍几张。最近抽空把之前拍的照片改了出来（90%不能用）。。。</p>
+	<p>话说，该写个图片轮播或是相册之类的插件了，现在这个样子图片乱插实在不好。。。或者弄个相册分类页比较好？？？</p>
+	<p>然后接下来就是找时间把网站改一下版，看了一下很久之前写的css代码还没有代码管理意识，超级乱。。。</p>
+	<p>接下来几年时间顺利的话都会在日本度过了，既然没有退路，那就只能努力的往前走了。。。頑張ろう！！！</p>	
+</div>
