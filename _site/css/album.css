@@ -75,13 +75,87 @@ h2{
 	color: #FCD781;
 	font-size: 18px;
 }
+
 .content{
 	margin-left: 22px;
 	margin-right: 22px;
 	margin-top: 10px;
 	margin-bottom: 50px;
 }
-.main p{
+
+.album_item{
+	width: 287px;
+	height: 296px;
+	overflow: hidden;
+	display: inline-block;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #fefeef;
+	box-shadow: 1px 1px 4px #888888;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+.album_item:hover{
+	box-shadow: 4px 4px 14px #888888;
+	transition: all 0.2s;
+}
+
+.album_item .album_img{
+	text-align: center;
+	width: 90%;
+	height: 187px;
+	margin-left: 5%;
+	margin-top: 30px;
+	overflow: hidden;
+}
+
+.album_item img{
+	height: 187px;
+	text-align: center;
+
+
+}
+
+.album_item .img_pro{
+	margin-left: 7%;
+	margin-right: 7%;
+}
+
+.img_pro .img_name{
+	width: 100%;
+	margin-top: 14px;
+	margin-bottom: 11px;
+	color: #626C83;
+	line-height: 20px;
+	font-size: 18px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis; 
+}
+
+
+.img_pro .img_date{
+	float: right;
+	margin-top: -5px;
+	color: #767676;
+	font-size: 15px;
+}
+
+.album_item .img_intro{
+	display: none;
+}
+
+.main_footer p{
+	color: #4A4A4A;
+	font-size: 19px;
+	line-height: 150%;
+   	text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+	text-indent: 34px;
+}
+/*.main p{
 	color: #4A4A4A;
 	font-size: 19px;
 	line-height: 150%;
@@ -96,7 +170,7 @@ h2{
 }
 .content p a:hover{
 	color: #8c9ed5;
-}
+}*/
 .back{
 	font-size: 19px;
 	line-height: 150%;
@@ -111,21 +185,47 @@ h2{
 .back a:hover{
 	color: #8c9ed5;
 }
-
+/*
 .content img {
 	width: 70%;
    	text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
 	text-align: center;	
 	margin-left: 10%;
 	margin-top: 15px;
+}*/
+
+.black_windows{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background-color: rgba(0,0,0,0.9);
+	cursor: pointer;
 }
 
-.main_footer p{
-	color: #4A4A4A;
-	font-size: 19px;
-	line-height: 150%;
-   	text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
-	text-indent: 34px;
+.black_windows .showed_img{
+	text-align: center;
+	width: 90%;
+	height: 80%;
+	overflow: hidden;
+	margin-top: 2%;
+	margin-left: 5%;
+}
+
+.high_img{
+	height: 100%;
+}
+
+.wide_img{
+	width: 100%;
+}
+
+.black_windows .showed_img_intro{
+	width: 60%;
+	font-size: 25px;
+	margin-left: 20%;
+	color: #eeeeee;
 }
 
 /* footer */

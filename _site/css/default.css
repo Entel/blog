@@ -50,6 +50,7 @@ h2{
 	transition: all 0.8s;
 }
 .category{
+	line-height: 34px;
 	margin-left: 10%;
 	margin-top: 10px;
 	color: #626C83;
@@ -62,6 +63,7 @@ h2{
 	font-size: 21px;
 }
 .date{
+	line-height: 34px;
 	margin-top: 10px;
 	margin-left: 80%;
 	color: #FF7530;
@@ -116,6 +118,14 @@ h2{
 	text-align: center;	
 	margin-left: 10%;
 	margin-top: 15px;
+}
+
+.main_footer p{
+	color: #4A4A4A;
+	font-size: 19px;
+	line-height: 150%;
+   	text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+	text-indent: 34px;
 }
 
 /* footer */

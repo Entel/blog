@@ -1,0 +1,28 @@
+---
+layout: album
+title: 神户大桥半日游
+category: Diary
+---
+<h2>{{ page.title }}</h2>
+
+<div class="category">
+	<span>Category : {{ page.category }}</span>
+</div>
+<div class="date">
+	<span>{{ page.date | date: '%Y-%m-%d' }}</span>
+</div>
+
+<div class="content">
+	{% for item in site.data.2016-3-5 %}
+	<div class="album_item" id="{{ item.num }}">
+		<div class="album_img">
+			<img src="{{ site.images }}/{{ item.url }}/{{ item.num }}_icon.jpg" />
+		</div>
+		<div class="img_pro">
+			<p class="img_name">{{ item.name }}</p>
+			<p class="img_date">{{ item.date }}</p>
+		</div>
+		<p class="img_intro">{{ item.intro }}</p>
+	</div>
+	{% endfor %}
+</div> 

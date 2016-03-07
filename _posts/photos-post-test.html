@@ -1,0 +1,28 @@
+---
+layout: album
+title: 相册测试页
+category: Diary
+---
+<h2>{{ page.title }}</h2>
+
+<div class="category">
+	<span>Category : {{ page.category }}</span>
+</div>
+<div class="date">
+	<span>{{ page.date | date: '%Y-%m-%d' }}</span>
+</div>
+
+<div class="content">
+	{% for item in site.data.example %}
+	<div class="album_item">
+		<div class="album_img">
+			<img src="{{ site.images }}/{{ item.url }}.jpg" />
+		</div>
+		<div class="img_pro">
+			<p class="img_name">{{ item.name }}</p>
+			<p class="img_date">{{ item.date }}</p>
+		</div>
+		<p class="img_intro">{{ item.intro }}</p>
+	</div>
+	{% endfor %}
+</div> 
