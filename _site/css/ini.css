@@ -131,48 +131,54 @@ a:visited{
 	margin-bottom: 10px;
 	font-size: 39px;
 	font-weight: bold;
-    	text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
 }
 .article-list ul{
-	margin-top: 3px;
-	min-width: 850px;
+	margin-top: -25px;
+	padding-bottom: 26px;
 }
 .article-list ul li{
-    	text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
 	margin-top: 3px;
 	margin-bottom: auto;
 	margin-left: 10px;
-	min-height: 50px;
-	display: block;
-	min-width: 850px;
+	display: inline-block;
+	width: 100%;
+	height: 48px;
+	line-height: 48px;
 }
 .date{
-	max-width: 260px;
-	min-width: 240px;
+	width: 30%;	
 	float: left;
-}
-.article-list .date span{
-	font-size: 35px;
+	display: inline-block;
+	font-size: 28px; 
 	color: #8B7D56;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis; 
 }
 .article{
 	float: right;
-	display: block;
-	margin-right:20px;
-	max-width: 630px;
-	min-width: 620px;
-	margin-top: 2px;
+	width: 65%;
+	display: inline-block;
+	margin-right: 4%;
+	margin-top: 29px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis; 
 }
 .article-list a{
 	font-size: 18px;
 	transition: all .5s;
-	margin-left: 15px;
-	overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis; 
 }
 .article-list a:hover{
 	color: #3761BD;
     	text-shadow: 1px 1px 3px #345678;
 }
+
 .footer{
 	height: 100px;
 }
